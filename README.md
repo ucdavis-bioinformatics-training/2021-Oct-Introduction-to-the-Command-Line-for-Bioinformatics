@@ -11,8 +11,6 @@ Get off to a good start in bioinformatics with this three-part online workshop i
 
 This workshop consists of three half-day sessions, combining lecture and exercises in a survey of the basics of the command line for bioinformatics. Completion of this material will allow participants to get the most out of our other experiment-centric workshops. We recommend this course for all beginners.
 
-Introduction to the Command Line for Bioinformatics is scheduled from 2:00 pm to 5:00 pm on Monday, June 1st, Tuesday, June 2nd, and Friday, June 4th.
-
 Participants must have a Mac, a Linux machine, or Windows 10.
 
 The registration fee is $300 for UC students, postdocs, staff and faculty, $450 for Non-UC academic or non-profit participants and $600 for other participants. We accept credit cards, as well as UC Davis recharge accounts, for payment. We are pleased to be able to offer three group pricing bundle options for labs with multiple registrants: 15% off registration for groups of 3-5, 25% off registration for groups of 6-10, and custom instructional packages for groups larger than 10. If you are interested in one of these pricing options, please contact us at training.bioinformatics@ucdavis.edu for a custom coupon code.
