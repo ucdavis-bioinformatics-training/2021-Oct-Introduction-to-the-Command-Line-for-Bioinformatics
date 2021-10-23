@@ -15,3 +15,4 @@ into the Terminal and press Enter. The installer will explain what it is doing a
 
 	brew install wget
 	brew install gnu-sed
+    brew install coreutils

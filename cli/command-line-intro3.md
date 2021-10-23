@@ -131,7 +131,7 @@ Now, let's delve into pipes a little more. Pipes are a very powerful way to look
     wget https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/master/cli/I561.subset.fq.gz -O I561.subset.fq.gz
     wget https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2021-June-Introduction-to-the-Command-Line-for-Bioinformatics/master/cli/I894.subset.fq.gz -O I894.subset.fq.gz
 
-Since the files are gzipped files we need to use "zcat" to look at them. zcat is just like cat except for gzipped files:
+Since the files are gzipped files we need to use "zcat" to look at them (mac users may have to use "gzcat"). zcat is just like cat except for gzipped files:
 
     zcat C61.subset.fq.gz | head
 
@@ -176,7 +176,7 @@ done
 The list can be a sequence of numbers or letters, or a group of files specified with wildcard characters:
 
     for i in {3,2,1,liftoff}; do echo $i; done  # needs more excitement!
-    for i in {3,2,1,"liftoff!"}; do echo $i; done  # exclamation point will confuse the shell unless quoted
+    for i in {3,2,1,'liftoff!'}; do echo $i; done  # exclamation point will confuse the shell unless quoted
 
  A "while" loop is more convenient than a "for" loop ... if you don't readily know how many iterations of the loop you want:
 
@@ -453,7 +453,7 @@ myQuestions5 = [
     correctAnswer: "b"
   },
   {
-    question: "In your shell script change the pipeline so that it only counts the nucleotides (and not the header) AND it only counts the first 100 bases. How many A's are there?",
+    question: "Write a command (using pipes) using the 'genome.fa' file that counts the nucleotides (and not the header) AND it only counts the first 100 bases. How many A's are there?",
     answers: {
       a: "35",
       b: "30",
